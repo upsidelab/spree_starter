@@ -42,7 +42,7 @@ export default class GenerateStore extends Command {
     }
 
     await cloneGitRepository({
-      projectDir,
+      projectDir: projectDir.concat('/backend'),
       gitRepositoryURL: spree.gitRepositoryURL
     });
 
