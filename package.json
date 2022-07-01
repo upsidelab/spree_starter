@@ -5,5 +5,8 @@
   },
   "scripts": {
     "build": "esbuild app/javascript/*.* --bundle --sourcemap --outdir=app/assets/builds"
+  },
+  "devDependencies": {
+    "ts-jest": "^28.0.5"
   }
 }
