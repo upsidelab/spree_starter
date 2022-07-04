@@ -4,7 +4,10 @@
     "esbuild": "^0.14.1"
   },
   "scripts": {
-    "build": "esbuild app/javascript/*.* --bundle --sourcemap --outdir=app/assets/builds"
+    "build": "esbuild app/javascript/*.* --bundle --sourcemap --outdir=app/assets/builds",
+    "build:cli": "cd cli && yarn run build",
+    "lint:cli": "cd cli && yarn run lint",
+    "test:cli": "cd ./cli && yarn test --passWithNoTests"
   },
   "devDependencies": {
     "ts-jest": "^28.0.5"
