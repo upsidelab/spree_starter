@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Vue Storefront",
+    "gitRepositoryURL": "https://github.com/vuestorefront/spree",
+    "documentationURL": "https://docs.vuestorefront.io/spree"
+  },
+  {
+    "name": "Next.js Commerce",
+    "gitRepositoryURL": "https://github.com/vercel/commerce",
+    "documentationURL": "https://user-docs.spreecommerce.org"
+  }
+]
