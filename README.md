@@ -45,7 +45,7 @@ docker-compose up
 2. Install required packages
 
       ```bash
-      brew install gpg postgresql redis imagemagick
+      brew install gpg postgresql redis imagemagick vips
       createuser -P -d postgres
       ```
 
